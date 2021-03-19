@@ -45,5 +45,15 @@ section{
 	text-align: center;
 	font-family: fantasy ;
 	font-size: 25px;
+	border-top: 2px solid #333333;
 }
+iframe{
+	margin:0 auto;
+	display: block;
+}
+.section .fb-like {
+	position: relative;
+
+}
+
 
