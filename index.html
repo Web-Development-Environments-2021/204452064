@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<style>
- 
-</style>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet_like" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <title>Chaia Moshes</title>
 </head>
-<body> 
-<div class="menu">
-  <div class ="logo">
-    <a href="#"><img src="C:/Users/הלל/Pictures/falafel.jpg" alt="logo"></a>
+
+<body>
+  <div class="menu">
+    <div class="logo">
+      <a href="#"><img src="C:/Users/הלל/Pictures/falafel.jpg" alt="logo"></a>
     </div>
     <ul>
       <a href="#about">About Me </a>
@@ -19,41 +21,40 @@
       <a href="#qrcoder">QR code</a>
       <a href="#spa">Q&A</a>
       <a href="#contact">Contact Me</a>
-    </ul> 
-</div>		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+    </ul>
+  </div>
+  <section id="about" class="section">
+    <br />
+    <br />
+    <br />
+    about me
+    <br />
+    <br />
+    <br />
+  </section>
 
-<section id="photos" class="section">
-  <br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="photos" class="section">
+    <br />
+    my photos
+    <br />
+    <br />
+    <br />
+  </section>
 
-<section id="playlist" class="section">
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-<iframe width="420" height="315"
-src="https://youtube.com/playlist?list=RD7B_DjCNKgHU">
-</iframe>
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="playlist" class="section">
+    <br />
+    my playlist
+    <br />
+    <br />
+    <br />
+    <iframe width="420" height="315" src="https://youtube.com/playlist?list=RD7B_DjCNKgHU">
+    </iframe>
+    <br />
+    <br />
+    <br />
+  </section>
 
-<section id="like" class="section">
+  <section id="like" class="section">
 <br/>
 give me a like
 <span class="likebtn-wrapper" data-identifier="item_1"></span>
@@ -71,53 +72,56 @@ give me a like
 <br/>
 </section>
 
-<section id="qrcoder" class="section">
-<br/>
-scan my code
-<br/>
-<br/>
-<img src="flowcode.png" alt="qr" width="100" height="100">
+  
 
-</section>
+  <section id="qrcoder" class="section">
+    <br />
+    scan my code
+    <br />
+    <br />
+    <img src="flowcode.png" alt="qr" width="100" height="100">
 
-<section id="spa" class="section">
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+  </section>
 
-<section id="contact" class="section">
-<br/>
-contact me
-<br/>
-<form action = "mailto:hallelh@post.bgu.ac.il" method = "post" enctype = "text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-<br/>
-E-mail:<br>
-<input type="text" name="email"><br> 
-<br/>
-message:<br>
-<input type="text" name="comment" size= "50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-</section>
+  <section id="spa" class="section">
+    <br />
+    ans
+    <br />
+    <br />
+    <br />
+  </section>
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  <section id="contact" class="section">
+    <br />
+    contact me
+    <br />
+    <form action="mailto:hallelh@post.bgu.ac.il" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br>
+      <br />
+      E-mail:<br>
+      <input type="text" name="email"><br>
+      <br />
+      message:<br>
+      <input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+  </section>
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });
+  </script>
 </body>
+
 </html>
