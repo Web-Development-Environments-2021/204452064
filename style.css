@@ -52,8 +52,11 @@ iframe{
 	display: block;
 }
 .section .fb-like {
-	position: relative;
+	position: relative; 
+}
 
+section .contact .Name {
+  font-size: 5px
 }
 
 
