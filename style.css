@@ -52,7 +52,11 @@ iframe{
 	display: block;
 }
 .section .fb-like {
-	position: relative; 
+	position: relative;
+  bottom: 50px;
+
+
+
 }
 
 section .contact .Name {
