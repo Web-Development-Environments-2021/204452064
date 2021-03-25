@@ -56,11 +56,8 @@ iframe{
 	margin:0 auto;
 	display: block;
 }
-.section#like {
-	position: relative;
-  height: 200px;
-
-  
+#like{
+  height: 300px;
 }
 
 
