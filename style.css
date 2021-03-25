@@ -56,8 +56,11 @@ iframe{
 	margin:0 auto;
 	display: block;
 }
-#like{
-  height: 300px;
+
+#like iframe{
+padding-right: 50px; 
+
+  
 }
 
 
