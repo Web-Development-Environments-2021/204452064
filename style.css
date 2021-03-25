@@ -56,8 +56,10 @@ iframe{
 	margin:0 auto;
 	display: block;
 }
-.section .fb-like {
+.section#like {
 	position: relative;
+  height:50px;
+
   
 }
 
