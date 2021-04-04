@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet_like" 
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  
   <title>Chaia Moshes</title>
 </head>
 
@@ -29,7 +30,14 @@
     <br />
     <br />
     about me
-    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:25px;">הבסמהלבס... שלום שמי חיה מושס, נולדתי בשנת </p>
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:25px;">ברוכים הבאים לאתר של חיה מושס
+      <br> חיה נולדה בארנגטינה בשנת 1930 ועלתה לישראל בשנת 1948<br> בשנת 1947 נישאה לפנחס וביחד גידלו את נחמה בתם הבכורה ועידית
+      <br> מאז עלייתם ועד היום חיה ופנחס מתגוררים בירושלים<br> לאורך חייהם טיילו הרבה וביקרו במדינות רבות
+      <br> חיה נהנת מאוד מהבישולים, ותמיד כשמגיעים לביקור יש תבשיל מפנק, מאפה או עוגה
+      <br> מצורף פה מתכון לעוגת היום הולדת המסורתית<br> ובהמשך אפשר לראות בתמונות את ספר המתכונים המכובד<br> 
+      &#127827<a 
+       target="_blank" href="recip.jpeg">לחץ למתכון עוגת היום הולדת</a>
+      </a>&#127827 </p>
     
     <br />
     <br />
@@ -39,9 +47,113 @@
   <section id="photos" class="section">
     <br />
     my photos
-    <br />
-    <br />
-    <br />
+
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="4.jpeg"  width="600" height="450">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="book.jpeg" width="600" height="450">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="chaia.jpeg" width="600" height="450" >
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="lake.jpeg" width="600" height="450">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="snow.jpeg" width="600" height="450">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="usa-cali.jpeg" width="600" height="450">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="4.jpeg" style="width:100%" width="20" height="200" onclick="currentSlide(1)" alt="bariloche">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="book.jpeg" style="width:100%" width="20" height="200" onclick="currentSlide(2)" alt=" bariloche">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="chaia.jpeg" style="width:100%" width="20" height="200" onclick="currentSlide(3)" alt="bariloche ">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="lake.jpeg" style="width:100%" width="20" height="200" onclick="currentSlide(4)" alt="bariloche">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="snow.jpeg" style="width:100%" width="20" height="200" onclick="currentSlide(5)" alt="bariloche">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="usa-cali.jpeg" style="width:100%" width="20" height="200" onclick="currentSlide(6)" alt="bariloche">
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="gallery">
+      <a target="_blank" href="snow.jpeg">
+        <img src="snow.jpeg" alt="s" >
+      </a>
+      <div class="desc"> פנחס וחיה </div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="Lake.jpeg">
+        <img src="Lake.jpeg" alt="lake" >
+      </a>
+      <div class="desc"> פנחס וחיה</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="4.jpeg">
+        <img src="4.jpeg" alt="four">
+      </a>
+      <div class="desc"> פנחס חיה ושתי הבנות: נחמה ועידית</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="usa-cali.jpeg">
+        <img src="usa-cali.jpeg" alt="cali">
+      </a>
+      <div class="desc"> פנחס וחיה</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="chaia.jpeg">
+        <img src="chaia.jpeg" alt="book">
+      </a>
+      <div class="desc"> חיה מחפשת בספר המתכונים</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="book.jpeg">
+        <img src="book.jpeg" alt="book">
+      </a>
+      <div class="desc"> ספר המתכונים של חיה</div>
+    </div> -->
+
   </section>
 
   <section id="playlist" class="section">
@@ -49,7 +161,7 @@
     my playlist
     <br />
     <iframe width="420" height="315" 
-    src="https://www.youtube.com/embed/https://youtube.com/playlist?list=PLNmhQQZh4NzuPz6yKf-dm7FvN3SWfgXU-"
+    src="https://www.youtube.com/embed/https://youtube.com/playlist?list=PLNmhQQZh4NzuQsDP92RRJUykUR36PIvjR"
     frameborder="0" allow="autoplay;enctyped-media" allowfullscreen>
     </iframe>
     <br />
@@ -66,7 +178,7 @@ give me a like
     scan my code
     <br />
     <br />
-    <img src="flowcode.png" alt="qr" width="100" height="100">
+    <img src="flowcode.png" alt="qr" width="250" height="250">
 
   </section>
 
@@ -82,6 +194,25 @@ give me a like
     <br />
     contact me
     <br />
+    <form action="https://formsubmit.co/hallelh@post.bgu.ac.il" method="POST">
+      <p style="font-size:30px;">Name:</p>
+      <input type="text" name="name" rows=3 required >
+      <br>
+      <p style="font-size:30px;">E-mail:</p>
+      <input type="email" name="email" required >
+      <br>
+      <p style="font-size:30px;">Message:</p>
+      <textarea placeholder="שלח שאלות/ תגובות לחיה" type="text" name="message" rows = 5 data-emoji-picker="true"></textarea>
+      <br/>
+      <button type="submit" style = "width: 70px; height: 50px; font-size: 25px" >send</button>
+    <!-- <div class="container">
+      <h1>Emoji Picker</h1>
+      <input data-emoji-picker="true" type="text" value="Input text">
+      <input data-emoji-picker="true" type="text" value="Input text">
+      <textarea data-emoji-picker="true">Textarea</textarea>
+    </div> -->
+
+ <!-- </form>
     <form action="mailto:hallelh@post.bgu.ac.il" method="post" enctype="text/plain">
       <p style="font-size:20px;">Name:</p>
       <input type="text" name="name"><br>
@@ -93,7 +224,10 @@ give me a like
       <br>
       <input type="submit" value="Send">
       <input type="reset" value="Reset">
-    </form>
+    </form> -->
+    
+    
+
   </section>
 
   <script type="text/javascript">
@@ -108,7 +242,47 @@ give me a like
     $(document).scroll(function () {
       $('#menu').toggle($(this).scrollTop() > 1000)
     });
-  </script>
-</body>
+ 
+//gallery script
+var slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+//gallery script
+
+</script>
+<script src="emoji.js"></script>
+<script>
+  (() => {
+    new EmojiPicker()
+  })()
+</script>
+
+</body>
 </html>
