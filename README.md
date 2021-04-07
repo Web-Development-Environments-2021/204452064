@@ -5,7 +5,7 @@
 204452064
 
 כתובת האתר: 
-https://web-development-environments-2021.github.io/assignment1-hallelhel/
+https://web-development-environments-2021.github.io/204452064/
 
 אתר זה נבנה עבור סבתי חיה מושס.
 
